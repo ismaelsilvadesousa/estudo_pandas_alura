@@ -6,6 +6,9 @@ import plotly.express as px
 # streamlit run app.py
 #para parar use ctrl + c
 
+#para passar e executar o app online transfira os arquivos app.py, requirements.txt e dados-imersao-final.csv no github
+#e depois conecte o repositório ao streamlit https://streamlit.io/
+
 # --- Configuração da Página ---
 # Define o título da página, o ícone e o layout para ocupar a largura inteira.
 st.set_page_config(
