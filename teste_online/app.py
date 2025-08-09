@@ -18,6 +18,7 @@ st.set_page_config(
 )
 
 # --- Carregamento dos dados ---
+#lembrar de atualizar isso aqui:
 df = pd.read_csv("https://raw.githubusercontent.com/vqrca/dashboard_salarios_dados/refs/heads/main/dados-imersao-final.csv")
 
 # --- Barra Lateral (Filtros) ---
