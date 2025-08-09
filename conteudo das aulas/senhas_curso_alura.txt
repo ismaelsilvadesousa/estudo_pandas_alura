@@ -2,3 +2,4 @@ lista de palavras chaves :
 aula 01: pandas
 aula 02: print
 aula 03: matplotlib
+aula 04: alura
