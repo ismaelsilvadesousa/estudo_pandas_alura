@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 
+import matplotlib.pyplot as plt
+
 #codigo abaixo esta puxando um arquivo de dados csv do github para a analise usando o pandas no formato de dataframe
 df = pd.read_csv("https://raw.githubusercontent.com/guilhermeonrails/data-jobs/refs/heads/main/salaries.csv")
 
@@ -91,4 +93,8 @@ def projeto_alura10(df):
     print(df_limpo.info())  #mostra as informações do dataframe limpo após a conversão
     print()
     print(df_limpo.head(10))  #mostra os primeiros 10 registros do dataframe limpo após a conversão
+    
+    df_limpo['experience_level'].value_counts().plot(kind='bar', title='Nível de Experiência')
+    plt.show()
+      
 projeto_alura10(df)
